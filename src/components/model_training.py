@@ -48,7 +48,10 @@ class Model_trainer:
         try:
             scores = self.train_model(X_train, X_test, y_train, y_test)
             max_score_model_name = scores.sort(key = lambda x: x[1], reverse= True)[0][0]
-            best_model = self.models[max_score_model_name]    
+            best_model = self.models[max_score_model_name] 
+            y_pred = best_model.predict(X_test)  
+
+            print(f"Accuracy of best model : {accuracy_score(y_test, y_pred)}") 
 
             return max_score_model_name, best_model
         
