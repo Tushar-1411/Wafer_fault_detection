@@ -1,0 +1,8 @@
+[ 2024-01-14 11:13:37,469 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2024-01-14 11:13:37,501 ] 224 werkzeug - INFO -  * Debugger PIN: 121-621-237
+[ 2024-01-14 11:13:55,485 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Jan/2024 11:13:55] "GET / HTTP/1.1" 200 -
+[ 2024-01-14 11:17:40,024 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Jan/2024 11:17:40] "GET / HTTP/1.1" 200 -
+[ 2024-01-14 11:17:47,040 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Jan/2024 11:17:47] "GET /predict HTTP/1.1" 200 -
+[ 2024-01-14 11:17:47,094 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Jan/2024 11:17:47] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2024-01-14 11:17:47,376 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Jan/2024 11:17:47] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2024-01-14 11:25:03,090 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Tushar\\Documents\\PROJECTS\\Wafer_fault_detection\\app.py', reloading

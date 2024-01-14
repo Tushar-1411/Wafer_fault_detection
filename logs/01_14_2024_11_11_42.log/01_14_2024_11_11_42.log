@@ -1,0 +1,19 @@
+[ 2024-01-14 11:11:44,579 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2024-01-14 11:11:44,626 ] 224 werkzeug - INFO -  * Debugger PIN: 121-621-237
+[ 2024-01-14 11:11:44,929 ] 30 root - INFO - Entered the load_object method of MainUtils class
+[ 2024-01-14 11:11:44,929 ] 36 root - INFO - Exited the load_object method of MainUtils class
+[ 2024-01-14 11:11:44,929 ] 30 root - INFO - Entered the load_object method of MainUtils class
+[ 2024-01-14 11:11:44,929 ] 36 root - INFO - Exited the load_object method of MainUtils class
+[ 2024-01-14 11:11:45,097 ] 69 root - INFO - predictions completed. 
+[ 2024-01-14 11:11:45,097 ] 37 root - INFO - prediction completed. Downloading prediction file.
+[ 2024-01-14 11:11:45,113 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Jan/2024 11:11:45] "POST /predict HTTP/1.1" 200 -
+[ 2024-01-14 11:11:47,519 ] 30 root - INFO - Entered the load_object method of MainUtils class
+[ 2024-01-14 11:11:47,519 ] 36 root - INFO - Exited the load_object method of MainUtils class
+[ 2024-01-14 11:11:47,519 ] 30 root - INFO - Entered the load_object method of MainUtils class
+[ 2024-01-14 11:11:47,519 ] 36 root - INFO - Exited the load_object method of MainUtils class
+[ 2024-01-14 11:11:47,673 ] 69 root - INFO - predictions completed. 
+[ 2024-01-14 11:11:47,673 ] 37 root - INFO - prediction completed. Downloading prediction file.
+[ 2024-01-14 11:11:47,689 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Jan/2024 11:11:47] "POST /predict HTTP/1.1" 200 -
+[ 2024-01-14 11:12:18,762 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Jan/2024 11:12:18] "[33mGET /home HTTP/1.1[0m" 404 -
+[ 2024-01-14 11:12:23,082 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Jan/2024 11:12:23] "GET / HTTP/1.1" 200 -
+[ 2024-01-14 11:12:38,129 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\Tushar\\Documents\\PROJECTS\\Wafer_fault_detection\\app.py', reloading

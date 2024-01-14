@@ -1,0 +1,15 @@
+[ 2024-01-14 11:01:17,538 ] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+[ 2024-01-14 11:01:17,538 ] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-01-14 11:01:17,538 ] 224 werkzeug - INFO -  * Restarting with stat
+[ 2024-01-14 11:02:44,372 ] 224 werkzeug - INFO -  * Restarting with stat
+[ 2024-01-14 11:03:19,783 ] 224 werkzeug - INFO -  * Restarting with stat
+[ 2024-01-14 11:03:49,139 ] 224 werkzeug - INFO -  * Restarting with stat
+[ 2024-01-14 11:04:14,275 ] 224 werkzeug - INFO -  * Restarting with stat
+[ 2024-01-14 11:06:05,624 ] 224 werkzeug - INFO -  * Restarting with stat
+[ 2024-01-14 11:06:20,636 ] 224 werkzeug - INFO -  * Restarting with stat
+[ 2024-01-14 11:09:11,518 ] 224 werkzeug - INFO -  * Restarting with stat
+[ 2024-01-14 11:11:41,159 ] 224 werkzeug - INFO -  * Restarting with stat
+[ 2024-01-14 11:12:38,373 ] 224 werkzeug - INFO -  * Restarting with stat

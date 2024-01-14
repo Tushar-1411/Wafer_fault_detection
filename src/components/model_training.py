@@ -1,7 +1,7 @@
-from sklearn.base import accuracy_score
+from sklearn.metrics import accuracy_score
 from src.exceptions import CustomException
 from src.logger import logging
-from utils.helper import save_object
+from utils.helper import Helperfuncs
 import os, sys
 from dataclasses import dataclass
 from sklearn.model_selection import train_test_split
@@ -25,6 +25,7 @@ class Model_trainer:
                       "Extra Trees" : ExtraTreeClassifier(),
                       "Random Forest" : RandomForestClassifier(),
                       "Gradient Boost" : HistGradientBoostingClassifier()}
+        self.utils = Helperfuncs()
 
     def train_model(self, X_train, X_test, y_train, y_test):
         """Train a classifier based on the dataset and save it to disk"""
@@ -47,7 +48,8 @@ class Model_trainer:
         logging.info("Entering into the model training and evaluation phase ...")
         try:
             scores = self.train_model(X_train, X_test, y_train, y_test)
-            max_score_model_name = scores.sort(key = lambda x: x[1], reverse= True)[0][0]
+            scores.sort(key = lambda x: x[1], reverse= True)
+            max_score_model_name = scores[0][0]
             best_model = self.models[max_score_model_name] 
             y_pred = best_model.predict(X_test)  
 
@@ -63,7 +65,7 @@ class Model_trainer:
         try:
             
 
-            save_object(trained_model_path, best_model)
+            self.utils.save_object(trained_model_path, best_model)
             logging.info("Model Saved for prediction successfully ...")
 
             return trained_model_path

@@ -4,10 +4,10 @@ from src.components.data_ingestion import DataIngestion
 from src.components.data_transformation import Data_Transformation
 from src.components.model_training import Model_trainer
 
-class Trainig_Pipeline:
+class Training_Pipeline:
 
     def __init__(self):
-        pass
+        self.file_path = os.path.join("artifacts", "wafer_fault.csv")
     
     def start_data_ingestion(self):
         try:
@@ -19,7 +19,7 @@ class Trainig_Pipeline:
 
     def start_data_transformation(self, file_path):
         try:
-            data_tranform = Data_Transformation(file_path)
+            data_tranform = Data_Transformation(self.file_path)
             train_arr, test_arr, preprocessor = data_tranform.initiate_data_transformation()
             return (train_arr, test_arr, preprocessor)
         except Exception as e:
